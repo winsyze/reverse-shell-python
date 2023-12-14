@@ -1,4 +1,4 @@
-# reverse-shell-python
+# Reverse-Shell-Python
 It's a simple Reverse Shell in Python to facilitate your life, for example: when escalating privileges.
 
 # Reverse Shell Tool for Security Studies
